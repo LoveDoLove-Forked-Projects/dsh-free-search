@@ -20,9 +20,6 @@ importers:
       '@deepseek-ai/dsh-client-ui-renderer':
         specifier: ^0.1.7-rc.1 || ^0.2.0-rc.1
         version: 0.1.7-rc.1(@deepseek-ai/cordis@4.0.1)
-      '@deepseek-ai/schemastery':
-        specifier: ^3.18.4
-        version: 3.18.4
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -33,6 +30,9 @@ importers:
       '@deepseek-ai/dsh-tools':
         specifier: ^0.1.7-rc.1
         version: 0.1.7-rc.1(c88bee8666724fd6822e3db5e7499f93)
+      '@deepseek-ai/schemastery':
+        specifier: '>=3.18.4 <4'
+        version: 3.18.4
 
 packages:
 
@@ -290,8 +290,8 @@ packages:
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
-  fast-uri@3.1.8:
-    resolution: {integrity: sha512-GZMtZUTNRpOVIECoXwLNZS5xUGE+mVNbTB8h/7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8+ZfMg==}
+  fast-uri@3.1.9:
+    resolution: {integrity: sha512-hS/0Wt3Ya043oKXs0sIxrMpKQITXhMLIrVAKKXi4gozGC9v7YRWVnXIZzjNPTO02M9BdxLCWqK1yRXgNziVyJQ==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -637,7 +637,7 @@ snapshots:
   ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.8
+      fast-uri: 3.1.9
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -645,7 +645,7 @@ snapshots:
 
   fast-deep-equal@3.1.3: {}
 
-  fast-uri@3.1.8: {}
+  fast-uri@3.1.9: {}
 
   js-tokens@4.0.0: {}
 
